@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+}
+
+.content.selected {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: none;
+  width: 80%;
+  margin: auto;
+  transition: width 1s;
+}
+
+.content__text {
+  padding: 24px 0 0;
+  font-size: 24px;
+}
+
+.content__image {
+  padding: 24px 0;
+  max-height: 90vh;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+}
